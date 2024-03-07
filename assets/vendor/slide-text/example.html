@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <title>jQuery SlideText Plugin Example</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        body { font-family: 'Roboto Condensed'; min-height: 100vh;background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); }
+        .container { margin: 150px auto; max-width: 400px; }
+        h1 { text-align: center; margin-bottom: 50px; }
+        .container-example {
+            border: 1px #000 solid;
+            padding: 1rem;
+            margin-bottom: 50px;
+            border-radius: 3px;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .slidetext {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .slidetext__content {
+            font-weight: 300;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/animation/scroll-text-hover.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <div class="container">
+        <h1>jQuery SlideText Plugin Example</h1>
+    <div class="container-example slidetext">
+        <span class="slidetext__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin elit non sapien vehicula rutrum. Etiam tristique ex tortor, sed venenatis risus elementum eget.
+        </span>
+    </div>
+
+    <div class="container-example slidetext">
+        <span class="slidetext__content">
+            Ut egestas nulla orci, quis semper sem suscipit vel. Suspendisse mollis rhoncus tempor. Quisque magna turpis, faucibus eget euismod at, aliquet eget arcu. Vivamus tempor commodo tempus.
+        </span>
+    </div>
+
+    <div class="container-example slidetext">
+        <span class="slidetext__content">
+            In sed nibh vel nulla tincidunt pretium non ut turpis. Quisque est quam, dapibus mattis dapibus sit amet, pellentesque congue ante. Pellentesque nec eros ac dui ultrices imperdiet vel sit amet ipsum. Pellentesque id sollicitudin ex. Nullam vitae velit massa. Proin aliquam arcu ac lectus egestas, interdum tempus justo sollicitudin. Proin venenatis quam vel tellus bibendum tempor. Mauris viverra, nisl ac molestie imperdiet, leo nisl pretium est, eget sagittis sapien tortor vel mi.
+        </span>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="dist/jquery.slidetext.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        SlideText({
+            'elbox'    : '.slidetext',
+            'elcontent': '.slidetext__content',
+            'speed'    : 177
+        });
+    </script>
+</body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>

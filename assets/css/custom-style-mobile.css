@@ -1,0 +1,60 @@
+.navbar {
+    box-shadow: 0 2px 7px rgba(0,0,0,.1);
+}
+
+.navbar-brand img {
+    width: 95%;
+    margin-top: 4px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .nav-menu {
+    color: #484646;
+}
+
+.navbar-default .nav-menu:hover {
+    color: #089613;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 0px;
+}
+
+.page-head {
+    min-height: 130px;
+    margin-top: 66px;
+}
+
+h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
+    font-size: 14px;
+}
+
+.content-area {
+    padding-bottom: 0;
+}
+
+.add-d-title {
+    background-color: #67d80c;
+    padding-left: 12px !important;
+}
+
+.add-d-entry {
+    padding: 3px 12px !important;
+    line-height: 23px;
+}
+
+.open > .dropdown-menu {
+    z-index: 1000;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #089613;
+}

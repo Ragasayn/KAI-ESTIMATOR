@@ -1,0 +1,18 @@
+{
+      "info": "Menampilkan _START_ sampai _END_ dari jumlah data",
+      "sInfoEmpty": "",
+      "sInfoFiltered": "(terfilter dari _MAX_ data)",
+      "emptyTable": "<img src='../assets/not-found.svg' width='100' /><br><strong>Tidak ada hasil ditemukan</strong>",
+      "sLengthMenu": "Data per Halaman: _MENU_",
+        "sLoadingRecords": "<img src='../assets/ajax-loader.svg' /><br>Silakan tunggu, data sedang di-load...",
+        "sProcessing": "<img src='../assets/ajax-loader.svg' />",
+        "sSearch": "Cari Data:",
+        "sSearchPlaceholder": "Masukkan kata kunci...",
+        "sZeroRecords": "<img src='../assets/not-found.svg' width='100' /><br><strong>Tidak ada hasil ditemukan</strong>",
+      "paginate": {
+        "first": "Pertama",
+        "last": "Terakhir",
+        "previous": "Sebelumnya",
+        "next": "Berikutnya"
+      }
+}

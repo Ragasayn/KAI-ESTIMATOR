@@ -1,0 +1,854 @@
+/* Body -------------------------------------------------------------------------------------------*/
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-hijau {
+    background-color: #98da4d;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-merah {
+    background-color: #ED1C24;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.merah {
+    background-color: #ED1C24;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.hijau {
+    background-color: #7FC42D;
+}
+
+.sign-up .form-group button {
+    border-radius: 0px;
+}
+
+.btn-wa-footer {
+    background-color: #0dd11d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.video {
+    box-shadow: 3px outside rgba(128, 128, 128, 0.6);
+}
+
+/* Navbar ------------------------------------------------------------------------------------------- */
+.navbar-default {
+    background-color: transparent;
+}
+
+.navbar-dark * {
+    color: white
+}
+
+.navbar-gradien {
+    background-image: linear-gradient(to right, #7FC42D, #98DB4D);
+}
+
+.nav-link {
+    padding-right: 20px !important;
+    font-size: 14px;
+    font-weight: 600 !important;
+    transition: margin-top 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    position: relative;
+    color: #089613;
+    margin-top: -10px;
+}
+
+.dropdown-item {
+    color: black;
+    font-size: 12px;
+    padding: 5px !important;
+    text-align: center;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.title::after {
+    content: '';
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 50px;
+    background-color: #0dd11d;
+    bottom: -5px;
+    margin: auto;
+    border-radius: 2px 2px 2px 2px;
+}
+
+li.badge::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -15px;
+    margin-top: -10px;
+    background-image: url('../images/new.png');
+    background-size: cover;
+}
+
+.navbar.scrolled {
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(200, 200, 200, 0.6);
+    transition: background-color 1s ease 0s;
+}
+
+.navbar.scrolled .nav-link {
+    color: #089613;
+}
+
+.navbar.scrolled .nav-item.active .nav-link {
+    color: black;
+}
+
+
+.navbar.scrolled .navbar-toggler {
+    background-color: gray;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+    margin-top: -12px;
+
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .navbar-nav .nav-item.featured {
+    display: none;
+}
+
+/* Main  -------------------------------------------------------------------------------------------*/
+#main {
+    background-image: url('../images/bgmain.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    height: 750px;
+}
+
+#main .maincontent>.row {
+    margin-top: 60px;
+}
+
+#main .maincontent h1 {
+    font-weight: 1000;
+}
+
+.maincontent {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.signup {
+    background-image: url('../images/bgSignup.png');
+    color: black;
+    font-weight: 300;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.6);
+}
+
+.row-logintype a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
+}
+
+
+.signup a.estimatorlogin {
+    background-image: url('../images/Estimatorgrey.png');
+    background-size: 78%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.signup a.suplierlogin {
+    background-image: url('../images/Supliergrey.png');
+    background-size: 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.signup a.estimatorlogin:hover {
+    background-image: url('../images/Estimatorwhite.png');
+    background-size: 78%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #089613;
+}
+
+.signup a.suplierlogin:hover {
+    background-image: url('../images/Suplierwhite.png');
+    background-size: 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #089613;
+}
+
+.signup a.estimatorlogin.pilih {
+    background-image: url('../images/Estimatorwhite.png');
+    background-size: 78%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #089613;
+}
+
+.signup a.suplierlogin.pilih {
+    background-image: url('../images/Suplierwhite.png');
+    background-size: 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #089613;
+}
+
+.row-logintype {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.signup p,
+.form-group label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sosmed {
+    margin-top: -10px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sosmed img {
+    width: 50px;
+    height: auto;
+}
+
+/* Isi-Aktivitas */
+.container.isi-aktifitas {
+    margin-top: 72px;
+}
+
+.isi-aktifitas .sidebar .card .card-item a {
+    color: black;
+}
+
+.isi-aktifitas .sidebar .card-item a:hover {
+    font-weight: bolder;
+    color: #7FC42D;
+}
+
+.isi-aktifitas .box-cari {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    position: fixed;
+    z-index: 99;
+}
+
+.isi-aktifitas .box-cari .form-control {
+    width: 397px;
+}
+
+.isi-aktifitas .batas-atas {
+    margin-top: 90px;
+}
+
+.garis-bawah {
+    border-bottom: 2px solid lightgray;
+}
+
+
+
+.isi-aktifitas .card-aktifitas .tanggal {
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 4px;
+    left: 20px;
+    top: 5px;
+}
+
+.isi-aktifitas .card-aktifitas .tanggal .tgl-bln {
+    font-size: 14px;
+    color: gray;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.isi-aktifitas .card-aktifitas .tanggal .tahun {
+    font-size: 24px;
+    color: gray;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+/* Profil ------------------------------------------------------------------------------------------- */
+section#profil .videoprofil {
+    background-image: url('../images/bgvideo.png');
+    background-size: contain;
+    overflow: visible;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+section#profil .deskripsi p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+section#profil .videoprofil iframe {
+    max-width: 100%;
+    margin: 50px 0;
+}
+
+/* OurService ------------------------------------------------------------------------------------------- */
+
+
+/* Katalog ------------------------------------------------------------------------------------------- */
+
+#katalog .card-katalog,
+#artikel .card-artikel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#katalog .card-katalog .card:hover,
+#artikel .card-artikel .card:hover {
+    box-shadow: 0 0 4px 4px rgba(128, 128, 128, 0.6);
+}
+
+.link-incard {
+    color: red !important;
+    font-size: 12px;
+    margin: auto;
+    margin-top: -15px;
+    padding-bottom: 15px;
+}
+
+.link-incard img {
+    display: inline !important;
+    margin-left: 5px;
+}
+
+.card-body {
+    padding-bottom: 5px !important;
+    margin-bottom: 5px;
+}
+
+.slick-prev {
+    left: -35px;
+}
+
+.slick-next {
+    right: -35px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: black;
+    font-size: 30px
+}
+
+/* Testimonial -------------------------------------------------------------------------------------------*/
+#testimonial {
+    background-image: url('../images/bg_testimonial.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#testimonial::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section#testimonial .container {
+    position: relative;
+    z-index: 99;
+}
+
+#testimonial .img-thumbnail {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+}
+
+.testimonee {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+    color: white;
+    opacity: 0.6;
+    font-size: 30px
+}
+
+#testimonial iframe {
+    max-width: 100%;
+}
+
+
+/* Client ------------------------------------------------------------------------------------------- */
+.clients-logo {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.clients-logo img {
+    max-width: 225px;
+    max-height: 225px;
+}
+
+#client button.slick-prev {
+    left: -185px;
+}
+
+#client button.slick-next {
+    right: -185px;
+}
+
+
+/* Artikel -------------------------------------------------------------------------------------------*/
+.card-img-top {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+}
+
+.card-title {
+    font-family: inherit;
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card-text.harga {
+    font-family: inherit;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+/* Benefit ---------------------------------------------------------------------------------------- */
+section#benefit .benefit-image {
+    width: 80px;
+    height: 80px;
+}
+
+section#benefit .benefit-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section#benefit .benefit-desc {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* Suplier Brand ---------------------------------------------------------------------------------- */
+section#brand {
+    background-image: url('../images/bg-brand.png');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+section#brand::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section#brand .container {
+    position: relative;
+    z-index: 99;
+}
+
+section#brand .brand-slide img {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+section#brand button.slick-prev::before,
+section#brand button.slick-next::before {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+section#brand .brand-logo {
+    padding-left: 64px;
+}
+
+/* Paket ------------------------------------------------------------------------------------------ */
+section#paket .card-header {
+    background-color: #089613;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section#paket .card-footer {
+    background-color: #089613;
+}
+
+section#paket .card-footer a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Discount ---------------------------------------------------------------------------------------- */
+.discount {
+    width: 212px;
+    height: 48px;
+    position: fixed;
+    z-index: 99;
+    top: 80px;
+    left: -118px;
+    background-image: url('../images/bg_discount.png');
+    background-size: cover;
+    color: white;
+}
+
+.discount .sale {
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 25px;
+    padding-left: 5px;
+    border-left: 2px solid white;
+}
+
+.discount .sale a,
+.discount .offer a {
+    color: white;
+    text-decoration: none;
+}
+
+.discount .sale a:hover,
+.discount .offer a:hover {
+    color: gray;
+}
+
+.discount offer {}
+
+.discount .offer p {
+    display: inline;
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+/* Footer -------------------------------------------------------------------------------------------*/
+footer {
+    background-image: url('../images/bgfooter.png');
+    background-size: cover;
+    color: white !important;
+}
+
+footer {
+    color: white !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer .footer-link {
+    margin-top: 20px;
+}
+
+.copyright {
+    background-color: #089613;
+    padding-bottom: 0px;
+}
+
+.wa-link {
+    position: relative;
+    z-index: 999;
+    margin-bottom: -15px;
+}
+
+footer .wa-link a {
+    position: fixed;
+    bottom: 25px;
+    right: 100px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+footer .rocket img {
+    position: fixed;
+    bottom: 22px;
+    right: 45px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -3px;
+    box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.6);
+    border-radius: 100%;
+    display: none;
+}
+
+.copyright p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Tutorial = Gallery */
+#tutorial .video-gallery {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+#tutorial .video-gallery img {
+    position: relative;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+
+/* Mobile setting ----------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 700px) {
+
+    /* navbar-collapse */
+    div.navbar-collapse {
+        background-color: white;
+        padding-bottom: 10px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+        color: black;
+        margin-left: 20px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item.active .nav-link {
+        color: green;
+        margin-left: 20px;
+    }
+
+    .navbar-collapse .navbar-nav li.badge::before {
+        display: none;
+    }
+
+    .navbar-collapse .nav-item.badge {
+        text-align: left;
+    }
+
+    .navbar-collapse .nav-item.badge .nav-link {
+        margin-left: 15px;
+    }
+
+    .navbar-collapse .nav-item .btn {
+        margin-left: 20px;
+    }
+
+    /* main */
+    #main {
+        height: 700px;
+    }
+
+    #main .maincontent>.row {
+        margin-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .signup {
+        background-image: unset;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 30px;
+    }
+
+    #main .tagline h1 {
+        font-size: 30px !important;
+    }
+
+    #main .tagline h4 {
+        font-size: 20px !important;
+    }
+
+
+    #main .maincontent {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+
+    /* profil */
+    #profil .deskripsi {
+        padding-right: 0;
+        text-align: justify;
+    }
+
+    .videoprofil {
+        max-width: 100%;
+    }
+
+    #profil {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #profil .deskripsi {
+        text-align: center;
+    }
+
+    /* katalog */
+    section#katalog .card img,
+    section#artikel .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    /* footer */
+    footer .rocket img {
+        bottom: 35px;
+        right: 20px;
+    }
+
+    footer a.btn-wa-footer {
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: auto;
+    }
+
+    .isi-aktifitas #pencarian {
+        margin-top: 120px;
+    }
+
+
+
+    .isi-aktifitas #pencarian .card-item {
+        display: none;
+    }
+
+    .isi-aktifitas #pencarian .card-header,
+    .isi-aktifitas #pencarian .card-item {
+        height: 40px;
+        font-size: 20px;
+        padding-top: 5px;
+        position: relative;
+        z-index: 99;
+    }
+
+    .isi-aktifitas .box-cari .form-control {
+        margin-top: -10px;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .isi-aktifitas .box-cari .form-control.pilih {
+        display: none;
+    }
+
+    .isi-aktifitas .card-aktifitas .card {
+        width: 250px;
+        margin: 10px auto;
+    }
+
+    .isi-aktifitas .card-aktifitas .card img.card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .isi-aktifitas .card-aktifitas .tanggal {
+        left: 70px;
+    }
+
+
+}
